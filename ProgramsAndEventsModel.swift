@@ -38,7 +38,7 @@ class ProgramAndEventsModel: ObservableObject{
     }
     
     func observelistOfSecondProgram(){
-        ref.child("SecretsDetector").observe(.value){parentSnapshot in
+        ref.child("NewPage").observe(.value){parentSnapshot in
             guard let children = parentSnapshot.children.allObjects as? [DataSnapshot] else {
                 return
             }
@@ -51,7 +51,7 @@ class ProgramAndEventsModel: ObservableObject{
     }
     
     func observelistOfThirdProgram(){
-        ref.child("SecretsDetector").observe(.value){parentSnapshot in
+        ref.child("preacher").observe(.value){parentSnapshot in
             guard let children = parentSnapshot.children.allObjects as? [DataSnapshot] else {
                 return
             }
@@ -77,7 +77,7 @@ class ProgramAndEventsModel: ObservableObject{
     }
     
     func observelistOfFifthProgram(){
-        ref.child("SecretsDetector").observe(.value){parentSnapshot in
+        ref.child("YourLifeInStory").observe(.value){parentSnapshot in
             guard let children = parentSnapshot.children.allObjects as? [DataSnapshot] else {
                 return
             }

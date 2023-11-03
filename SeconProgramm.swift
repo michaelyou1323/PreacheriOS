@@ -43,7 +43,7 @@ struct SecondProgramm: View {
                                     ZStack {
                                       
                                         let shape = RoundedRectangle(cornerRadius: 20)
-                                        shape.fill().foregroundColor(.white)
+                                        shape.fill().foregroundColor(.gray.opacity(0.1))
                                         shape.stroke(Color.accentColor,lineWidth: 1)
                                             .contentShape( Rectangle() )
                                             .onTapGesture() {
@@ -59,7 +59,7 @@ struct SecondProgramm: View {
                                             ZStack{
                                                 
                                                 let shape = RoundedRectangle(cornerRadius: 20)
-                                                shape.fill().foregroundColor(.white)
+                                                shape.fill().foregroundColor(.gray.opacity(0.1))
                                               
                                                     .frame( height: 60).padding(.horizontal,30)
                                                 //                                                   AsyncImage(url: URL(string: object.image))
@@ -93,7 +93,7 @@ struct SecondProgramm: View {
                                             ZStack{
                                                 
                                                 let shape2 = RoundedRectangle(cornerRadius:20)
-                                                shape2.fill().foregroundColor(.white)
+                                                shape2.fill().foregroundColor(.gray.opacity(0.1))
                                                 shape2.stroke(Color.red,lineWidth: 3)
 //                                                    .frame( height: 23).padding(.horizontal,15)
 //                                                    .padding(.top, 3)
@@ -122,7 +122,7 @@ struct SecondProgramm: View {
                 }.padding()
                            
 
-            }
+            }.background(.gray.opacity(0.3))
 
                    }.onAppear(perform: viewModel.observelistOfSecondProgram)
     }

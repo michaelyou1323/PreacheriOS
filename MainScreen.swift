@@ -23,75 +23,60 @@ struct MainScreen: View {
     
     var body: some View {
         
-        //
-        
-        
         VStack {
-            
-            
-            
-            
-            
-            
-            NavigationLink(destination: EventsScreen()) {
-                ZStack {
-                    let shape = RoundedRectangle(cornerRadius: 20)
-                    shape.fill().foregroundColor(.white)
-                   
-                    if let lastItem = items.last {
-//                        Image(lastItem.link) // Replace `.building` with your image's name  "download (1)"
-//                            .resizable()
-////                            .aspectRatio(contentMode: .fill)
-//                            .cornerRadius(20)
-//                            .padding(3)
-//                        
-                        
-                        AsyncImage(url: URL(string:lastItem.imageUrl)) { image in
-                            image.resizable().aspectRatio(contentMode: .fit)
-                                .cornerRadius(20)
-                        } placeholder: {
-                            ProgressView()
-                        }
-                    }else{
-                        Image( "download (1)") // Replace `.building` with your image's name  "download (1)"
-                            .resizable()
-                            .cornerRadius(20)
-                           
-                    }
-                    
-                    
-                }
-                .frame( height: 190)
-                .padding(.horizontal,55)
-                .padding(.top,55)
-                
-                
-            }
-            
-            NavigationLink(destination: EventsScreen()) {
-                Text("المزيد").frame( height: 6)
-                    .foregroundStyle(.blue)
-                    .font(.system(size:16))
-                    .padding()
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(.gray, lineWidth: 1)
-                    )
-                
-            }.frame(maxWidth: .infinity, alignment: .center)
-               
-          
+            Color.gray.opacity(0.01).ignoresSafeArea()
+            VStack( ){
+                Color.gray.opacity(0.3)
+                NavigationLink(destination: EventsScreen()) {
+                              ZStack {
+                                  let shape = RoundedRectangle(cornerRadius: 20)
+                                  shape.fill().foregroundColor(.gray.opacity(0.01))
+                                 
+                                  if let lastItem = items.last {
 
+                                      AsyncImage(url: URL(string:lastItem.imageUrl)) { image in
+                                          image.resizable().aspectRatio(contentMode: .fit)
+                                              .cornerRadius(20)
+                                      } placeholder: {
+                                          ProgressView()
+                                      }
+                                  }else{
+                                     
+                                         
+                                  }
+                              }.frame( height: 250)
+        
+                } .padding(.horizontal,30)
+                    .padding(.top,120)
                 
                 
+                NavigationLink(destination: EventsScreen()) {
+                    Text("المزيد").frame( height: 6)
+                        .foregroundStyle(.blue)
+                        .font(.system(size:16))
+                        .padding()
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(.gray, lineWidth: 1)
+                        )
+                    
+                }.frame(maxWidth: .infinity, alignment: .bottomTrailing)
+                    .padding(.horizontal,32)
+
+            }
+          
+            
+           
+            
                 
+
             VStack{
                 
                     NavigationLink(destination: FormScreen()) {
-                        Text(" تابعني    ").frame(height: 45)
+                        Text(" تابعني    ").frame(height: 55)
                             .foregroundStyle(.red)
                             .font(.headline)
-                            .padding(.horizontal,20)
+                            .padding(.horizontal,25)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 16)
                                     .stroke(.red, lineWidth: 2)
@@ -101,17 +86,20 @@ struct MainScreen: View {
                     
                 
                     
-            }.padding(.top , 40)
+            }.padding(.top ,120)
                 .padding(.bottom , 70)
+               
                
                 
                 
                 
                 
-            }.onAppear(perform: {
+            }  // Remove the top padding
+            // Remove the bottom padding
+            .background(.gray.opacity(0.3))
+            .onAppear(perform: {
                 fetchData()
             })
-            
             
         
             
@@ -119,7 +107,7 @@ struct MainScreen: View {
             
             
             
-        }
+    }
         
       
     func fetchData() {

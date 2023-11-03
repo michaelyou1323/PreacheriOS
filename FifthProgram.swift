@@ -1,8 +1,13 @@
-
+//
+//  FifthProgram.swift
+//  Preacher
+//
+//  Created by Michaelyoussef on 03/11/2023.
+//
 
 import SwiftUI
 
-struct FirstProgramm: View {
+struct FifthProgram: View {
     
 @StateObject
     var viewModel = ProgramAndEventsModel()
@@ -17,8 +22,7 @@ struct FirstProgramm: View {
        
             VStack {
                 
-//                Text("جيل جديد").onAppear(perform: viewModel.observelistOfFirstProgram).frame(height: 2).padding(.top,15)
-
+              
                 ScrollView {
                     VStack (
                         alignment:.leading,spacing: 10
@@ -38,7 +42,7 @@ struct FirstProgramm: View {
                                     ZStack {
                                       
                                         let shape = RoundedRectangle(cornerRadius: 20)
-                                        shape.fill().foregroundColor(.gray.opacity(0.01))
+                                        shape.fill().foregroundColor(.gray.opacity(0.1))
                                         shape.stroke(Color.accentColor,lineWidth: 1)
                                             .contentShape( Rectangle() )
                                             .onTapGesture() {
@@ -54,8 +58,8 @@ struct FirstProgramm: View {
                                             ZStack{
                                                 
                                                 let shape = RoundedRectangle(cornerRadius: 20)
-                                                shape.fill().foregroundColor(.gray.opacity(0.3))
-                                                    .foregroundStyle(Color.gray.opacity(0.02))
+                                                shape.fill().foregroundColor(.gray.opacity(0.1))
+                                              
                                                     .frame( height: 60).padding(.horizontal,30)
                                                 //                                                   AsyncImage(url: URL(string: object.image))
                                                 //                                                       .frame(width: 40, height: 40)
@@ -81,13 +85,6 @@ struct FirstProgramm: View {
                                                 }
                                                 
                                                 
-                                            } .onTapGesture() {
-                                                if object.link != "" {
-                                                    UIApplication.shared.open(URL(string:object.link)!)
-                                                }else{
-                                                  
-                                                }
-                                                
                                             }
                                             
                                             
@@ -95,11 +92,11 @@ struct FirstProgramm: View {
                                             ZStack{
                                                 
                                                 let shape2 = RoundedRectangle(cornerRadius:20)
-                                                shape2.fill().foregroundStyle(Color.gray.opacity(0.02))
+                                                shape2.fill().foregroundColor(.gray.opacity(0.1))
                                                 shape2.stroke(Color.red,lineWidth: 3)
 //                                                    .frame( height: 23).padding(.horizontal,15)
 //                                                    .padding(.top, 3)
-//                                                
+//
                                                 Text(object.name)
                                             }.frame( height: 23).padding(.horizontal,15)
                                                 .padding(.top, 10)
@@ -107,8 +104,7 @@ struct FirstProgramm: View {
                                             
                                             
                                             
-                                        } 
-                                        .frame( height: 23).padding(.horizontal,15)
+                                        } .frame( height: 23).padding(.horizontal,15)
                                            
                                         
                                         
@@ -125,19 +121,12 @@ struct FirstProgramm: View {
                 }.padding()
                            
 
-            }.background(Color.gray.opacity(0.3))
+            }.background(.gray.opacity(0.3))
 
-                   }.onAppear(perform: viewModel.observelistOfFirstProgram)
+        }.onAppear(perform: viewModel.observelistOfFifthProgram)
     }
-            }
-        
-    
-    
+}
 
-
-struct FirstProgramm_Previews: PreviewProvider {
-    static var previews: some View {
-FirstProgramm()
-        
-    }
+#Preview {
+    FifthProgram()
 }

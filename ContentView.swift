@@ -133,6 +133,7 @@ struct ContentView: View {
                 
             }
         }
+        .background(Color.gray.opacity(0.3))
         // .foregroundColor(Color.red)
         
             NavigationLink(destination: FormScreen()) {
@@ -140,7 +141,8 @@ struct ContentView: View {
             }
             
             
-    }
+        }
+        .background(Color.gray.opacity(0.3))
         }
        
      

@@ -44,6 +44,11 @@
 		94C1CB0E2A87BE2300192022 /* SeconProgramm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1CB0D2A87BE2300192022 /* SeconProgramm.swift */; };
 		94C1CB102A87BFA100192022 /* ThirdProgramm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1CB0F2A87BFA100192022 /* ThirdProgramm.swift */; };
 		94F0331A2A8F814700B1C016 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F033192A8F814700B1C016 /* AboutView.swift */; };
+		94F805482AF4C45200DA084B /* Pngtree—facebook icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F805472AF4C45200DA084B /* Pngtree—facebook icon.png */; };
+		94F8054A2AF4C93700DA084B /* kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c5d2e69.6146148015258566363817.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F805492AF4C93700DA084B /* kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c5d2e69.6146148015258566363817.png */; };
+		94F8054C2AF4E9CE00DA084B /* FourthProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8054B2AF4E9CE00DA084B /* FourthProgram.swift */; };
+		94F8054E2AF4EDCD00DA084B /* FifthProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8054D2AF4EDCD00DA084B /* FifthProgram.swift */; };
+		94F805502AF4EE5A00DA084B /* SixthProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8054F2AF4EE5A00DA084B /* SixthProgram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +81,11 @@
 		94C1CB0D2A87BE2300192022 /* SeconProgramm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconProgramm.swift; sourceTree = "<group>"; };
 		94C1CB0F2A87BFA100192022 /* ThirdProgramm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdProgramm.swift; sourceTree = "<group>"; };
 		94F033192A8F814700B1C016 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		94F805472AF4C45200DA084B /* Pngtree—facebook icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pngtree—facebook icon.png"; sourceTree = "<group>"; };
+		94F805492AF4C93700DA084B /* kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c5d2e69.6146148015258566363817.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c5d2e69.6146148015258566363817.png"; sourceTree = "<group>"; };
+		94F8054B2AF4E9CE00DA084B /* FourthProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthProgram.swift; sourceTree = "<group>"; };
+		94F8054D2AF4EDCD00DA084B /* FifthProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthProgram.swift; sourceTree = "<group>"; };
+		94F8054F2AF4EE5A00DA084B /* SixthProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthProgram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,9 @@
 		94AEEEDE2A7E474000A3EE91 = {
 			isa = PBXGroup;
 			children = (
+				94F8054F2AF4EE5A00DA084B /* SixthProgram.swift */,
+				94F8054D2AF4EDCD00DA084B /* FifthProgram.swift */,
+				94F8054B2AF4E9CE00DA084B /* FourthProgram.swift */,
 				948D41082ABB845D005049EC /* tryView.swift */,
 				940C1A182AB87F7D00AD83C2 /* EventsDataDemo.swift */,
 				94545D572AB0EC1400A8ECF3 /* ProgramDataDemo.swift */,
@@ -148,7 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				948429BC2A94B14C00414EBA /* Info.plist */,
+				94F805492AF4C93700DA084B /* kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c5d2e69.6146148015258566363817.png */,
 				94AEEEEE2A7E474100A3EE91 /* Assets.xcassets */,
+				94F805472AF4C45200DA084B /* Pngtree—facebook icon.png */,
 				948D410A2ABBE818005049EC /* img_20230526_130845.png */,
 				94B4C6012A88F2DF00E52032 /* download (1).jpeg */,
 				94B4C5FD2A88EF2D00E52032 /* PhotoRoom-20230721_163023.png */,
@@ -242,8 +257,10 @@
 				948D410B2ABBE819005049EC /* img_20230526_130845.png in Resources */,
 				94B4C6022A88F2DF00E52032 /* download (1).jpeg in Resources */,
 				94B4C5FE2A88EF2D00E52032 /* PhotoRoom-20230721_163023.png in Resources */,
+				94F8054A2AF4C93700DA084B /* kisspng-computer-icons-youtube-icon-round-logo-design-5af2b97c5d2e69.6146148015258566363817.png in Resources */,
 				94AEEEF22A7E474100A3EE91 /* Preview Assets.xcassets in Resources */,
 				94B4C6002A88F09500E52032 /* Media.xcassets in Resources */,
+				94F805482AF4C45200DA084B /* Pngtree—facebook icon.png in Resources */,
 				94AEEEEF2A7E474100A3EE91 /* Assets.xcassets in Resources */,
 				948429A62A94A76000414EBA /* GoogleService-Info.plist in Resources */,
 			);
@@ -257,12 +274,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				94B4C6042A89549400E52032 /* FormScreen.swift in Sources */,
+				94F805502AF4EE5A00DA084B /* SixthProgram.swift in Sources */,
 				94A7E5802A82A0F4000A112C /* MainScreen.swift in Sources */,
 				94C1CB0C2A87BAC800192022 /* FirstProgramm.swift in Sources */,
 				94AEEEED2A7E474000A3EE91 /* ContentView.swift in Sources */,
 				942674EE2A910DB1001DF3BE /* ContactUsScreen.swift in Sources */,
+				94F8054C2AF4E9CE00DA084B /* FourthProgram.swift in Sources */,
 				942674EA2A910C40001DF3BE /* EventsScreen.swift in Sources */,
 				942674EC2A910D1A001DF3BE /* PreachingScreen.swift in Sources */,
+				94F8054E2AF4EDCD00DA084B /* FifthProgram.swift in Sources */,
 				949D971D2A9F45B000572190 /* ObjectDemo.swift in Sources */,
 				944E25822A94FD2500F68672 /* DataModel.swift in Sources */,
 				94F0331A2A8F814700B1C016 /* AboutView.swift in Sources */,

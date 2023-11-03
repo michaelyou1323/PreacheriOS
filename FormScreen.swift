@@ -81,7 +81,6 @@ struct FormScreen: View {
     
     
     
-    
     @State var firstname = ""
     @State var lastname = ""
     @State var phonenumber = ""
@@ -102,59 +101,51 @@ struct FormScreen: View {
             VStack {
                 ScrollView {
                     TextField("الأسم الأول", text: $firstname)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 20)
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField("أسم العائلة", text: $lastname)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 15)
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField("رقم الموبايل", text: $phonenumber)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 15)                 
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField("الدولة", text: $country)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 8).padding(.top, 15)      
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField("المدينة", text: $city)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 15)
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField("المنطقة", text: $region)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 15)
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField("الكنيسة", text: $church)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 15)
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                     
                     TextField(" البريد الألكتروني ( اختياري )", text: $email)
-                        .border(Color.black)
-                        .font(.title2)
-                        .padding()
-                        .textFieldStyle(.roundedBorder)
+                        .textFieldStyle(CustomTextFieldStyle())
+                        .padding(.top, 15)
+                        .padding(.horizontal, 15)
                         .multilineTextAlignment(.trailing)
                 }
 //                .' '#' '$' '[' or ']
@@ -223,7 +214,16 @@ struct FormScreen: View {
 }
    
 
-
+struct CustomTextFieldStyle: TextFieldStyle {
+    func _body(configuration: TextField<_Label>) -> some View {
+        configuration
+            .padding(10)
+            .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                    .stroke(Color.black, lineWidth: 1)
+            )
+    }
+}
 struct FormScreen_Previews: PreviewProvider {
     static var previews: some View {
         FormScreen()

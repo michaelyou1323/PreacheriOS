@@ -50,6 +50,38 @@
             endingLineNumber = "94"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "498D83B6-1245-4806-9FFC-876B0F1E0FAA - d8ae74a4ea3a256a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.TabView&lt;Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.toolbarColorScheme(_: Swift.Optional&lt;SwiftUI.ColorScheme&gt;, for: SwiftUI.ToolbarPlacement...) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, Preacher.FormScreen&gt;)&gt; in Preacher.ContentView.body.getter : some"
+                  moduleName = "Preacher"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaelyou2000gmail.com/Desktop/Preacher/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "498D83B6-1245-4806-9FFC-876B0F1E0FAA - bd975508ca6795e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.TabView&lt;Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.toolbarColorScheme(_: Swift.Optional&lt;SwiftUI.ColorScheme&gt;, for: SwiftUI.ToolbarPlacement...) -&gt; some&gt;&gt;.0&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, SwiftUI.TabView&lt;Swift.Int, &lt;&lt;opaque return type of SwiftUI.View.toolbarColorScheme(_: Swift.Optional&lt;SwiftUI.ColorScheme&gt;, for: SwiftUI.ToolbarPlacement...) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, Preacher.FormScreen&gt;)&gt; in Preacher.ContentView.body.getter : some"
+                  moduleName = "Preacher"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michaelyou2000gmail.com/Desktop/Preacher/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -71,39 +103,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "01A37ED3-3CB9-4DDE-8A1C-BB78AB7A44C9"
+            uuid = "34FC019F-0C32-4639-BB79-CAE46597660D"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FirstProgramm.swift"
+            filePath = "ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Actions>
-               <BreakpointActionProxy
-                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
-                  <ActionContent
-                     consoleCommand = "">
-                  </ActionContent>
-               </BreakpointActionProxy>
-            </Actions>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8B7CD092-9EF1-469C-81B1-902E1A418AD2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FormScreen.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
