@@ -33,7 +33,7 @@
 		94A7E5822A82A510000A112C /* VideoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7E5812A82A510000A112C /* VideoScreen.swift */; };
 		94A7E5842A82A99B000A112C /* moreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7E5832A82A99B000A112C /* moreScreen.swift */; };
 		94AEEEEB2A7E474000A3EE91 /* PreacherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEEEA2A7E474000A3EE91 /* PreacherApp.swift */; };
-		94AEEEED2A7E474000A3EE91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEEEC2A7E474000A3EE91 /* ContentView.swift */; };
+		94AEEEED2A7E474000A3EE91 /* TapViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEEEC2A7E474000A3EE91 /* TapViewScreen.swift */; };
 		94AEEEEF2A7E474100A3EE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AEEEEE2A7E474100A3EE91 /* Assets.xcassets */; };
 		94AEEEF22A7E474100A3EE91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94AEEEF12A7E474100A3EE91 /* Preview Assets.xcassets */; };
 		94B4C5FE2A88EF2D00E52032 /* PhotoRoom-20230721_163023.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4C5FD2A88EF2D00E52032 /* PhotoRoom-20230721_163023.png */; };
@@ -70,7 +70,7 @@
 		94A7E5832A82A99B000A112C /* moreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreScreen.swift; sourceTree = "<group>"; };
 		94AEEEE72A7E474000A3EE91 /* Preacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AEEEEA2A7E474000A3EE91 /* PreacherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreacherApp.swift; sourceTree = "<group>"; };
-		94AEEEEC2A7E474000A3EE91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94AEEEEC2A7E474000A3EE91 /* TapViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewScreen.swift; sourceTree = "<group>"; };
 		94AEEEEE2A7E474100A3EE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94AEEEF12A7E474100A3EE91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94B4C5FD2A88EF2D00E52032 /* PhotoRoom-20230721_163023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PhotoRoom-20230721_163023.png"; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 				94A7E57F2A82A0F4000A112C /* MainScreen.swift */,
 				94C1CB0F2A87BFA100192022 /* ThirdProgramm.swift */,
 				94AEEEEA2A7E474000A3EE91 /* PreacherApp.swift */,
-				94AEEEEC2A7E474000A3EE91 /* ContentView.swift */,
+				94AEEEEC2A7E474000A3EE91 /* TapViewScreen.swift */,
 				94A7E5812A82A510000A112C /* VideoScreen.swift */,
 				94AEEEE92A7E474000A3EE91 /* Preacher */,
 				94AEEEE82A7E474000A3EE91 /* Products */,
@@ -277,7 +277,7 @@
 				94F805502AF4EE5A00DA084B /* SixthProgram.swift in Sources */,
 				94A7E5802A82A0F4000A112C /* MainScreen.swift in Sources */,
 				94C1CB0C2A87BAC800192022 /* FirstProgramm.swift in Sources */,
-				94AEEEED2A7E474000A3EE91 /* ContentView.swift in Sources */,
+				94AEEEED2A7E474000A3EE91 /* TapViewScreen.swift in Sources */,
 				942674EE2A910DB1001DF3BE /* ContactUsScreen.swift in Sources */,
 				94F8054C2AF4E9CE00DA084B /* FourthProgram.swift in Sources */,
 				942674EA2A910C40001DF3BE /* EventsScreen.swift in Sources */,
